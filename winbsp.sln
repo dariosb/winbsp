@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "winbsp", "winbsp\winbsp.vcxproj", "{4894E6FF-4FC8-4D30-9B88-AA3ABF59E628}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "serial", "test\serial\serial.vcxproj", "{BC4A3D86-5BA6-41DD-979B-E5C6022C14A6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "timer", "test\timer\timer.vcxproj", "{839ED9D6-C143-4FBA-9F4F-E1CDD395F41D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4894E6FF-4FC8-4D30-9B88-AA3ABF59E628}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4894E6FF-4FC8-4D30-9B88-AA3ABF59E628}.Debug|Win32.Build.0 = Debug|Win32
+		{4894E6FF-4FC8-4D30-9B88-AA3ABF59E628}.Release|Win32.ActiveCfg = Debug|Win32
+		{4894E6FF-4FC8-4D30-9B88-AA3ABF59E628}.Release|Win32.Build.0 = Debug|Win32
+		{BC4A3D86-5BA6-41DD-979B-E5C6022C14A6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC4A3D86-5BA6-41DD-979B-E5C6022C14A6}.Debug|Win32.Build.0 = Debug|Win32
+		{BC4A3D86-5BA6-41DD-979B-E5C6022C14A6}.Release|Win32.ActiveCfg = Debug|Win32
+		{BC4A3D86-5BA6-41DD-979B-E5C6022C14A6}.Release|Win32.Build.0 = Debug|Win32
+		{839ED9D6-C143-4FBA-9F4F-E1CDD395F41D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{839ED9D6-C143-4FBA-9F4F-E1CDD395F41D}.Debug|Win32.Build.0 = Debug|Win32
+		{839ED9D6-C143-4FBA-9F4F-E1CDD395F41D}.Release|Win32.ActiveCfg = Debug|Win32
+		{839ED9D6-C143-4FBA-9F4F-E1CDD395F41D}.Release|Win32.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
