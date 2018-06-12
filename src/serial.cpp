@@ -81,7 +81,7 @@ SerialEventManager( uint32 object, uint32 event )
             case  SERIAL_DATA_ARRIVAL  :
                 size   = com->getDataInSize();
                 buffer = com->getDataInBuffer();
-				debug( "serial_data_arrival ( %d ) %02.2X %c", dev_no, (unsigned char)(*buffer), isprint(*buffer) ? *buffer: '.' );
+				//debug( "serial_data_arrival ( %d ) %02.2X %c", dev_no, (unsigned char)(*buffer), isprint(*buffer) ? *buffer: '.' );
 				if( p->rx != NULL )
 					(*p->rx)( *buffer );
                 com->dataHasBeenRead();
